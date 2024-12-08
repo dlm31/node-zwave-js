@@ -34,6 +34,51 @@
 			"minValue": 1,
 			"maxValue": 32767,
 			"defaultValue": 720
+		},
+		{
+			"#": "2",
+			"label": "KHW meter report period",
+			"valueSize": 2,
+			"unit": "10min,6*10min=1h",
+			"minValue": 1,
+			"maxValue": 32767,
+			"defaultValue": 6
+		},
+		{
+			"#": "3",
+			"label": "Threshold of current load - Caution",
+			"valueSize": 2,
+			"unit": "0.01A 500*0.01A=5A",
+			"minValue": 10,
+			"maxValue": 500,
+			"defaultValue": 500
+		},
+		{
+			"#": "4",
+			"label": "Watt meter report period",
+			"valueSize": 2,
+			"unit": "Watt meter report period",
+			"minValue": 1,
+			"maxValue": 10000,
+			"defaultValue": 10000
+		},
+		{
+			"#": "5",
+			"label": "Level Report mode",
+			"valueSize": 1,
+			"unit": "1: Report destination in 5s interval: 2: report every 10% level charge",
+			"minValue": 1,
+			"maxValue": 2,
+			"defaultValue": 2
+		},
+		{
+			"#": "7",
+			"label": "Demo trip",
+			"valueSize": 1,
+			"unit": "1:activate demo trip and calibration when first touch of the button",
+			"minValue": 0,
+			"maxValue": 1,
+			"defaultValue": 1
 		}
 	],
 	"compat": {
